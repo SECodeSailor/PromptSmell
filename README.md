@@ -5,8 +5,9 @@ Code smells are code structures that violate design principles and are detriment
 
 ## Data collection
 To ensure the diversity of the dataset, 19 real-world projects are selected from multiple domains. These projects are presented in Table, where NOC represents the number of classes, NOM represents the number of methods, and LOC is the number of lines of code. A total of 15143 classes are included in the 19 projects, with 52.6% of the projects containing more than 500 classes. This dataset involves 139,446 methods. Most projects include more than 1,000 numbers of methods. The total lines of code (LOC) is 1,620,112. Most projects contain more than 10,000 LOC. 
-| Index | Project | Description | NOC | | NOM | | LOC | 
-|:------|:------|:------|:------|:------|:------|
+
+| Index | Project | Description | NOC | NOM | LOC | 
+|:------|:--------|:------------|:----|:----|:----|
 | 0 | ArgoUML | A software application for drawing UML diagrams | 1,931 | 17,129 | 157,611 |
 | 1 | Art of Illusion | An open-source 3D modelling and rendering software in Java | 487 | 6,672 | 102,679 |
 | 2 | Cayenne | An open-source persistence framework, providing object-relational mapping (ORM) and remoting services | 2,983 | 17,415 | 137,928 |
@@ -27,4 +28,14 @@ To ensure the diversity of the dataset, 19 real-world projects are selected from
 | 17 | Xalan Java | A tool for converting XML documents to HTML, text, or other XML document types | 963 | 102,86 | 185,511 |
 | 18 | XML Graphics Batik | A tool for working with images in scalable vector graphics format | 1,682 | 16,247 | 166,672 |
 | Total |  | | 15,143 | 139,446 | 1,620,112 |
+
+(Generalised datasets)
+| Index | Project | Description | NOC | NOM | LOC | 
+|:------|:--------|:------------|:----|:----|:----|
+| 0 | Drjava | An open-source software for evaluating the capabilities of Java code | 1,145 | 16,919 | 147,245 |
+| 1 | Filecrush | A utility program that fixes small files by merging them into larger files | 23 | 311 | 6,130 |
+| 2 | Freeplane | A tool that provides mind mapping and navigation to map information | 1,112 | 9,946 | 70,019 |
+| 3 | JGroups | A tool is a reliable group communication toolkit written entirely in Java | 249 | 2,005 | 13,624 |
+| 4 | Nutch | An open source framework for crawling the web content | 370 | 2,008 | 23,298 |
+| 5 | PMD | An Extensible Multilingual Static Code Analyser | 2,339 | 11,063 | 56,510 |
 
